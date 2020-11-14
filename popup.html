@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <meta charset="UTF=8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link rel="stylesheet" type="text/css" href="./styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <title>Weather</Title>
+      <script src="jquery-3.5.1.min.js"></script>
+  </head>
+  <body>
+   <video autoplay loop id="myVideo">
+      <source src="./videos/sun.mp4" type="video/mp4">
+   </video>
+
+  <div class="userName">
+    <form action="uName" method="get">
+      Full name:   <input type="text" name="fname" id="fname"><br/>
+      <span id="fullName"></span>
+      <input id="showName" type="button" value="Submit" />
+    </form>
+</div>
+  
+  
+
+   <div class = "Date-Section">
+      <p>Today's date is...</p>
+      <div class="Date">Sampledate</div>
+   </div>
+
+   <div class="Location">
+      <h1 class="Location-Timezone">Timezone</h1>
+      <canvas class="icon" width="128" height="128"></canvas>
+    </div>
+
+  <div class="Temperature-Section">
+
+    <div class="Degree-Section">
+      <h2 class="Degree">34</h2>
+      <span>F</span>
+    </div>
+
+    <div class="Temperature-Description">Temperature Description
+    </div>
+
+  </div>
+    <script src="./weather.js"></script>
+    <script src="./skycons.js"></script>
+  </body>
+</html>

@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 411px;
+  height:510px;
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143 ));
+  /* font-family: sans-serif; */
+  font-family: 'Roboto', sans-serif;
+
+  color: white;
+}
+.date-section {
+  font-size: 15px;
+  position: relative;
+  top: -5px;
+}
+
+.userName {
+  font-size: 15px;
+  position: relative;
+  justify-content: space-around;
+  top: -3px;
+  align-items: center;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.location {
+  height: 30vh;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+
+.degree-section{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  top: 5px;
+
+}
+
+.degree-section span{
+  margin: 10px;
+  font-size: 30px;
+}
+
+.degree-section h2{
+  font-size:40px;
+}
+
+
+.date {
+  font-size : 20px;
+  font-weight: bold;
+}
+
+.temperature-description {
+  justify-content: center;
+  margin: 30px;
+  position: relative;
+  top: 20px;
+
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+
+
+/* Style the button used to pause/play the video */
